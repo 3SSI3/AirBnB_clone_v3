@@ -155,7 +155,6 @@ No known bugs at this time.
 
 ## Authors
 Esther Elisha
-
-Second part of Airbnb: Joann Vuong
+Harrison Kangaho
 ## License
 Public Domain. No copy write protection. 
