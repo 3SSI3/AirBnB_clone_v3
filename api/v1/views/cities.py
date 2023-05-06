@@ -6,9 +6,12 @@ Module implements rule that returns a view
 import storage from models
 import City from models.city
 import State from models.state
-import jsonify, abort, request
+import jsonify from flask
+import abort from flask
+import request from flask
 import flasgger.utils from swag_from
 import app_views from api.v1.views
+
 
 @app_views.route("/states/<state_id>/cities", methods=["GET"],
                  strict_slashes=False)

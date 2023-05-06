@@ -4,10 +4,12 @@ Starts a Flask web application
 """
 import storage from models
 import app_views from api.v1.views
-import Flask, jsonify from flask
+import Flask from flask
+import jsonify from flask
 
 app = Flask(__name__)
 app.register_blueprint(app_views)
+
 
 @app.teardown_appcontext
 

@@ -6,8 +6,11 @@ A new view for state objects that handles all RESTFUL API actions
 import storage from models
 import Amenity from models.amenity
 import app_views from api.v1.views
-import jsonify, abort, request from flask
+import jsonify from flask
+import abort from flask
+import request from flask
 import swag_from from flasgger.utils
+
 
 @app_views.route('/amenities', methods=['GET'],
                  strict_slashes=False)

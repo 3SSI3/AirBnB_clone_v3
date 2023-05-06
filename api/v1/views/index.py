@@ -13,6 +13,7 @@ import State from models.state
 import User from models.user
 import app_views from api.v1.views
 
+
 @app_views.route("/status", strict_slashes=False)
 def view_status():
     """View function that return a json message"""

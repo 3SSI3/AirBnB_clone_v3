@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """Module implement a rule that return a view"""
-import jsonify, abort, request from flask
+import jsonify from flask
+import abort from flask
+import request from flask
 import storage from models
 import app_views from api.v1.views
 import City from models.city
